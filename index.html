@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <title>ノベルゲーム</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #f4f4f9;
+    }
+    #game-screen {
+      width: 800px;
+      margin: 50px auto;
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    #text-box {
+      margin: 20px 0;
+    }
+    #choices {
+      display: flex;
+      flex-direction: column;
+    }
+    button {
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <div id="game-screen">
+      <div id="text-box">ここにストーリーが表示されます。</div>
+      <div id="choices"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
